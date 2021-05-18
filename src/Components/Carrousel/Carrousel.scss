@@ -1,0 +1,57 @@
+@keyframes transition-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carrousel-c {
+    background-color: black;
+    padding-top: 20px;
+}
+
+.carrousel {
+  height: calc(100vh * 0.6);
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.carrousel-image {
+  height: 100%;
+  animation-name: transition-animation;
+  animation-duration: 1000ms;
+}
+
+.arrow {
+  position: absolute;
+  align-items: center;
+  height: 100%;
+  display: inline-flex;
+
+  & img {
+    height: 60px;
+    width: 50px;
+  }
+}
+
+.previus {
+  @extend .arrow;
+  left: 0;
+
+  &:hover {
+    background: linear-gradient(90deg, #525252, transparent);
+  }
+}
+
+.next {
+  @extend .arrow;
+  right: 0;
+
+  &:hover {
+    background: linear-gradient(-90deg, #525252, black);
+  }
+}

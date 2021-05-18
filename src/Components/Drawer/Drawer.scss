@@ -1,0 +1,40 @@
+
+.drawer {
+    display: none;
+  }
+  
+  .drawer-content {
+    animation: fadeInLeft;
+    animation-duration: 500ms;
+    height: calc(100vh - 91px);
+    overflow-y: auto;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: #232323;
+    padding-top: 15px;
+  
+    & ul {
+      list-style: none;
+      margin-right: 40px;
+    }
+  }
+  
+  .drawer-fondo {
+    height: calc(100vh - 91px);
+    width: calc(100vw);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: fade;
+    animation-duration: 400ms;
+    z-index: 1;
+  }
+
+
+
+  @media (max-width: 825px) {
+    .drawer {
+      display: block;
+    }
+  }
+  

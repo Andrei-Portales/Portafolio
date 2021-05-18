@@ -1,0 +1,23 @@
+@import '../node_modules/animate.css/animate.min.css';
+
+@font-face {
+  font-family: 'Billabong';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Billabong'),
+    url('https://fonts.cdnfonts.com/s/13949/Billabong.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c40000;
+  //   border-radius: 15px;
+}

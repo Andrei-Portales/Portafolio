@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import './Navbar.scss';
+
+import Drawer from '../Drawer/Drawer';
 
 import menuIcon from '../../assets/icons/square.svg';
 
 const Navbar = (props) => {
   const [state, setState] = useState({ isDrawerOpen: false });
+  const history = useHistory();
 
   const openDrawer = () => {
     const { isDrawerOpen } = state;
@@ -16,36 +19,31 @@ const Navbar = (props) => {
     }
   };
 
-  //fadeInLeft
+  const navigate = (path) => {
+      setState({ isDrawerOpen: false });
+    history.push(path);
+  };
 
   return (
-    <div className="navbar">
-      <div className="menu-icon">
-        <img src={menuIcon} />
+    <div>
+      <div className="navbar">
+        <div className="menu-icon" onClick={openDrawer}>
+          <img src={menuIcon} alt="drawer" />
+        </div>
+        <div className="title-nav">Andrei Portales</div>
+        <div className="items-nav">
+          <ul>
+            <li onClick={() => navigate('/')}>Inicio</li>
+            <li onClick={() => navigate('/tecnologias')}>Tecnologias</li>
+            <li onClick={() => navigate('/logros')}>Logros</li>
+            <li onClick={() => navigate('/proyectos')}>Proyectos</li>
+            <li onClick={() => navigate('/deportes')}>Deportes</li>
+            <li onClick={() => navigate('/contacto')}>Contacto</li>
+          </ul>
+        </div>
       </div>
-      <div className="title-nav">Andrei Portales</div>
-      <div className="items-nav">
-        <ul>
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/tecnologias">Tecnologias</Link>
-          </li>
-          <li>
-            <Link to="/logros">Logros</Link>
-          </li>
-          <li>
-            <Link to="/proyectos">Proyectos</Link>
-          </li>
-          <li>
-            <Link to="/deportes">Deportes</Link>
-          </li>
-          <li>
-            <Link to="/contacto">Contacto</Link>
-          </li>
-        </ul>
-      </div>
+
+      {state.isDrawerOpen ? <Drawer navigate={navigate} openDrawer={openDrawer}/> : null}
     </div>
   );
 };
