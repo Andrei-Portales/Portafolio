@@ -5,7 +5,7 @@ import DrawerItem from '../DrawerItem/DrawerItem';
 
 //iconos drawer
 import homeIcon from '../../assets/icons/home.svg';
-import tecIcon from '../../assets/icons/tecnology.svg';
+// import tecIcon from '../../assets/icons/tecnology.svg';
 import rewardIcon from '../../assets/icons/medal.svg';
 import projIcon from '../../assets/icons/project.svg';
 import sportIcon from '../../assets/icons/sports.svg';
@@ -17,16 +17,11 @@ const Drawer = (props) => {
   return (
     <div className="drawer">
       <div className="drawer-content">
-        <ul>
+    
           <DrawerItem
             title="Inicio"
             image={homeIcon}
             navigate={() => navigate('/')}
-          />
-          <DrawerItem
-            title="Tecnologias"
-            image={tecIcon}
-            navigate={() => navigate('/tecnologias')}
           />
           <DrawerItem
             title="Logros"
@@ -48,7 +43,7 @@ const Drawer = (props) => {
             image={contactIcon}
             navigate={() => navigate('/contacto')}
           />
-        </ul>
+    
       </div>
 
       <div className="drawer-fondo" onClick={openDrawer} />

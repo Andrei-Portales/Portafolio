@@ -30,23 +30,22 @@ const Carrousel = (props) => {
   };
 
   return (
-      <div className="carrousel-c">
- <div className="carrousel">
-      <img
-        key={state.currentIndex}
-        className="carrousel-image"
-        src={images[state.currentIndex]}
-        alt="carrousel"
-      />
-      <div className="previus" onClick={previus}>
-        <img src={previusIcon} alt="previus" />
-      </div>
-      <div className="next" onClick={next}>
-        <img src={nextIcon} alt="next" />
+    <div className="carrousel-c">
+      <div className="carrousel">
+        <img
+          key={state.currentIndex}
+          className="carrousel-image"
+          src={images[state.currentIndex]}
+          alt="carrousel"
+        />
+        <div className="previus" onClick={previus}>
+          <img src={previusIcon} alt="previus" />
+        </div>
+        <div className="next" onClick={next}>
+          <img src={nextIcon} alt="next" />
+        </div>
       </div>
     </div>
-      </div>
-   
   );
 };
 

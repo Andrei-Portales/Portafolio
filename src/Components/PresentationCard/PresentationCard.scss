@@ -1,0 +1,132 @@
+@import '../../variables.scss';
+
+.presentation-card {
+  display: inline-flex;
+  height: 550px;
+  width: 100%;
+  animation: fadeInUp;
+  animation-duration: 700ms;
+}
+
+.presentation-imageC {
+  height: 100%;
+  width: 40%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  //   background-color: aqua;
+}
+
+.image-container {
+  height: 65%;
+  width: 78%;
+  padding: 10px;
+  background-color: #444444;
+  border-radius: 50%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.presentation-infoC {
+  height: 100%;
+  width: 60%;
+  // background-color: blue;
+  display: inline-flex;
+  align-items: center;
+}
+
+.name-pres {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.desc-pres {
+  word-break: keep-all;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.buttons-pres {
+  margin-top: 5px;
+  display: inline-flex;
+}
+
+.proyects-button {
+  margin-right: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #444444;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  user-select: none;
+
+  &:hover {
+    color: grey;
+  }
+}
+
+.contact-button {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #444444;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  user-select: none;
+
+  &:hover {
+    color: grey;
+  }
+}
+
+@media (max-width: $breakpointscreen) {
+  .presentation-card {
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .presentation-imageC {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .image-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .presentation-infoC {
+    margin-top: 15px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .name-pres {
+    font-size: 1.6rem;
+  }
+
+  .buttons-pres {
+    width: 100%;
+    justify-content: center;
+  }
+}

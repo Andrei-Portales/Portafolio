@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 
 .drawer {
     display: none;
@@ -11,7 +13,7 @@
     left: 0;
     position: absolute;
     z-index: 2;
-    background-color: #232323;
+    background-color: #1a242f;
     padding-top: 15px;
   
     & ul {
@@ -32,7 +34,7 @@
 
 
 
-  @media (max-width: 825px) {
+  @media (max-width: $breakpointscreen) {
     .drawer {
       display: block;
     }

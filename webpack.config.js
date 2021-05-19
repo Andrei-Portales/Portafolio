@@ -3,6 +3,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  devServer: {
+    historyApiFallback: true
+  },
   entry: {
     index: "./src/index.js",
   },
@@ -42,7 +45,7 @@ module.exports = {
         exclude: /(node_modules)/,
       },
       {
-        test: /\.(svg|ttf|jpeg)$/,
+        test: /\.(svg|ttf|jpeg|jpg|png)$/,
         use: [
           {
             loader: 'file-loader',

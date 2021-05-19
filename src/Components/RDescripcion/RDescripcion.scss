@@ -1,0 +1,88 @@
+@import '../../variables.scss';
+
+
+.sectionRD {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.mainD-side {
+    width: 26.5%;
+    border-right: 1px solid green;
+    padding-right: 3%;
+    margin-right: 0.5%;
+}
+
+.desc-side {
+    width: 67%;
+    border-left: 1px solid green;
+    padding-left: 3%;
+}
+
+.title-RD {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.ele-RD {
+    margin: 10px;
+}
+
+.container-RD {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.time-RD {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+}
+
+.place-RD {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    color: grey;
+    margin-top: 5px;
+}
+
+.logo-RD {
+    max-width: 80px;
+    margin-top: 5px;
+}
+
+.titleT-RD {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.description-RD {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: $breakpointscreen) {
+
+    .sectionRD {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .logo-RD{
+        width: 70px;
+    }
+
+    // .mainD-side {
+    //     width: 27%;
+    // }
+
+    // .desc-side {
+    //     width: 67%;
+    // }
+}
+

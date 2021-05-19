@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.conocimientos-c {
+  margin-top: 40px;
+  width: 100%;
+  animation: fadeInLeft;
+  animation-duration: 700ms;
+}
+
+.title-c {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.c-content {
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+
+// .name-pres {
+//     font-family: 'Open Sans', sans-serif;
+//     font-weight: bold;
+//     font-size: 3rem;
+//   }
+
+//   .desc-pres {
+//     word-break: keep-all;
+//     text-align: justify;
+//     font-family: 'Open Sans', sans-serif;
+//     font-size: 1.2rem;
+//   }
+
+
+@media (max-width: $breakpointscreen) {
+
+    .conocimientos-c {
+
+    }
+
+    .title-c {
+        font-size: 2.5rem;
+    }
+
+    .c-content {
+        grid-template-columns: 100%;
+    }
+}

@@ -5,10 +5,10 @@ const DrawerItem = (props) => {
   const { title, image, navigate } = props;
 
   return (
-    <li className="drawer-item" onClick={navigate}>
+    <div className="drawer-item" onClick={navigate}>
       <img src={image} alt={title} />
       {title}
-    </li>
+    </div>
   );
 };
 

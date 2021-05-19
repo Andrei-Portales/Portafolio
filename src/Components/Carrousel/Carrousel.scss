@@ -8,8 +8,8 @@
 }
 
 .carrousel-c {
-    background-color: black;
-    padding-top: 20px;
+  background-color: #1a242f;
+  padding-top: 20px;
 }
 
 .carrousel {
@@ -22,6 +22,7 @@
 
 .carrousel-image {
   height: 100%;
+  max-width: calc(100vw);
   animation-name: transition-animation;
   animation-duration: 1000ms;
 }
@@ -29,29 +30,33 @@
 .arrow {
   position: absolute;
   align-items: center;
-  height: 100%;
-  display: inline-flex;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 60px;
+  width: 50px;
 
   & img {
-    height: 60px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+
+  &:hover {
+    background: rgba(0,0,0,0.5);
+    & img {
+      display: block;
+    }
   }
 }
 
 .previus {
   @extend .arrow;
   left: 0;
-
-  &:hover {
-    background: linear-gradient(90deg, #525252, transparent);
-  }
 }
 
 .next {
   @extend .arrow;
   right: 0;
-
-  &:hover {
-    background: linear-gradient(-90deg, #525252, black);
-  }
 }

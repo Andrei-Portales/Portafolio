@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.natacion-c {
+  margin-top: 40px;
+  width: 100%;
+  animation: fadeInLeft;
+  animation-duration: 700ms;
+}
+
+.title-n {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.n-content {
+
+}
+
+// .name-pres {
+//     font-family: 'Open Sans', sans-serif;
+//     font-weight: bold;
+//     font-size: 3rem;
+//   }
+
+//   .desc-pres {
+//     word-break: keep-all;
+//     text-align: justify;
+//     font-family: 'Open Sans', sans-serif;
+//     font-size: 1.2rem;
+//   }
+
+
+@media (max-width: $breakpointscreen) {
+
+
+    .title-n {
+        font-size: 2.5rem;
+    }
+
+}

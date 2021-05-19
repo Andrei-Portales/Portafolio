@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.sectionRT {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.title-RT {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.ele-RT {
+  margin: 10px;
+  margin-top: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tag-RT {
+   
+    padding: 5px;
+    background-color: #1a242f;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+@media (max-width: $breakpointscreen) {
+  .sectionRT {
+    margin-bottom: 30px;
+  }
+}

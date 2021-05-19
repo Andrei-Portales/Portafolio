@@ -34,7 +34,6 @@ const Navbar = (props) => {
         <div className="items-nav">
           <ul>
             <li onClick={() => navigate('/')}>Inicio</li>
-            <li onClick={() => navigate('/tecnologias')}>Tecnologias</li>
             <li onClick={() => navigate('/logros')}>Logros</li>
             <li onClick={() => navigate('/proyectos')}>Proyectos</li>
             <li onClick={() => navigate('/deportes')}>Deportes</li>
