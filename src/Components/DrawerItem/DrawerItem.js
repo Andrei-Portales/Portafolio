@@ -5,7 +5,7 @@ const DrawerItem = (props) => {
   const { title, image, navigate } = props;
 
   return (
-    <div className="drawer-item" onClick={navigate}>
+    <div className="drawer-item" onClick={navigate} data-testid="drawerItem-test">
       <img src={image} alt={title} />
       {title}
     </div>

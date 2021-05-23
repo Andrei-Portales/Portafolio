@@ -16,6 +16,12 @@ import uvg from '../assets/images/uvg.jpg';
 import SuperSharp from '../assets/images/supersharp.jpg';
 import portasoft from '../assets/images/portasoft.jpeg';
 
+// contact icons
+import location from '../assets/icons/location.svg';
+import mail from '../assets/icons/mail.svg';
+import phone from '../assets/icons/phone.svg';
+import checked from '../assets/icons/checked.svg';
+
 const homeCarrousel = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10];
 
 const educacion = {
@@ -168,11 +174,6 @@ const conoTags = {
   ],
 };
 
-import location from '../assets/icons/location.svg';
-import mail from '../assets/icons/mail.svg';
-import phone from '../assets/icons/phone.svg';
-import checked from '../assets/icons/checked.svg';
-
 const contactItems = [
   {
     icon: location,
@@ -189,7 +190,7 @@ const contactItems = [
   {
     icon: checked,
     title: 'Freelance disponible',
-  }
+  },
 ];
 
 export {

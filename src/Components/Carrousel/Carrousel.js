@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import './Carrousel.scss';
 
 import previusIcon from '../../assets/icons/left-arrow.svg';

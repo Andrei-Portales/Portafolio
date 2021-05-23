@@ -6,16 +6,20 @@ const RGraficas = (props) => {
   const { title, elements } = content;
 
   return (
-    <div className="sectionRG">
+    <div className="sectionRG" data-testid="graficas-test">
       <div className="title-RG">{title}</div>
 
       <div className="ele-RG">
         {elements.map((item) => {
+          const porentaje = item.progress * 100;
           return (
             <div key={item.title} className="progress-container">
               <div className="headers-progress">
                 <div>{item.title}</div>
-                <div>{item.progress * 100}%</div>
+                <div>
+                  <span>{porentaje}</span>
+                  <span>%</span>
+                </div>
               </div>
 
               <progress
