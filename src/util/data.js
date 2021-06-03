@@ -22,6 +22,29 @@ import mail from '../assets/icons/mail.svg';
 import phone from '../assets/icons/phone.svg';
 import checked from '../assets/icons/checked.svg';
 
+// certificados
+import htmlCertificate from '../assets/certificates/html.jpg';
+import flutterCertificate from '../assets/certificates/fluter.jpg';
+import englishCertificate from '../assets/certificates/english.jpg';
+
+// participacion
+import avanproC from '../assets/participacion/avanpro.jpg';
+import steam1C from '../assets/participacion/steam_competencia.jpg';
+import steam2C from '../assets/participacion/steamc.jpg';
+import steamGroup from '../assets/participacion/steam_carta.jpg';
+
+// diplomas universidad
+import distincion2020 from '../assets/diplomas/distincion2020.jpg';
+
+// proyectos web
+import amazonClonP from '../assets/proyectos-web/primevideo.png';
+import calendario from '../assets/proyectos-web/calendario.jpg';
+
+// proyectos android
+import pMusic from '../assets/proyectos-android/pmusic.webp';
+import pBiblie from '../assets/proyectos-android/biblia.webp';
+import pMemes from '../assets/proyectos-android/ms.webp';
+
 const homeCarrousel = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10];
 
 const educacion = {
@@ -41,7 +64,7 @@ const educacion = {
       logo: uvg,
       doTitle: 'Ciencias de la Computacion y TI',
       doDescription:
-        'La Universidad del Valle de Guatemala es la primera universidad de la región en introducir un título en bioinformática y me complace ser parte de la primera promoción de bioinformáticos de América Latina.',
+        'Estoy estudiando Ingeneria en Ciencia de la Computacion y Tecnologias de la informacion en la Universidad del Valle de Guatemala. Por el momento voy por el tercer año de la carrera.',
     },
   ],
 };
@@ -193,6 +216,103 @@ const contactItems = [
   },
 ];
 
+const certificados = {
+  title: 'Certificados',
+  items: [
+    {
+      title: 'HTML5 Udemy',
+      image: htmlCertificate,
+    },
+    {
+      title: 'Flutter y Dart Udemy',
+      image: flutterCertificate,
+    },
+    {
+      title: 'English Language Skills',
+      image: englishCertificate,
+    },
+  ],
+};
+
+const diplomasUniversidad = {
+  title: 'Universidad del Valle de Guatemala',
+  items: [
+    {
+      title: 'Distincion Academica 2020',
+      image: distincion2020,
+    },
+  ],
+};
+
+const participacionCert = {
+  title: 'Cetificados de Participacion',
+  items: [
+    {
+      title: 'Avanpro',
+      image: avanproC,
+    },
+    {
+      title: 'Steam Robotics',
+      image: steam1C,
+    },
+    {
+      title: 'Steam Robotics',
+      image: steam2C,
+    },
+    {
+      title: 'Steam Group',
+      image: steamGroup,
+    },
+  ],
+};
+
+const dataProyectosWeb = {
+  title: 'Proyectos Web',
+  items: [
+    {
+      title: 'Clone Amazon Prime',
+      description:
+        'Este clone se realizo en la clase de Tecnologias Web. Este fue parte de un proyecto que habia que realizar en la clase. Este sirvio para concretar los conocimientos de React y estilos con css.',
+      link: 'http://stw-uvg.site:3169',
+      image: amazonClonP,
+    },
+    {
+      title: 'Calendario Japones',
+      description:
+        'Este pagina se realizo para el departamente de internalizacion de la Universidad del Valle de Guatemala. El fin de esta pagina era poder mostrar los diferentes calendario japoneses. Para esto se utilizo React.',
+      link: 'https://andrei-portales.github.io/calendario-japon',
+      image: calendario,
+    },
+  ],
+};
+
+const dataProyectosAndroid = {
+  title: 'Proyectos Android - Flutter',
+  items: [
+    {
+      title: 'Portales Music',
+      description:
+        'Esta aplicacion la hice para que las personas puedan escuchar musica facil y gratuitamente sin tener que pagar subscripcion en otra aplicacion. Es libre de anuncios y pagos dentro de la misma.',
+      link: 'https://play.google.com/store/apps/details?id=com.portales.PortalesMusic',
+      image: pMusic,
+    },
+    {
+      title: 'La biblia MV',
+      description:
+        'Esta aplicacion es para poder leer la biblia gratuitamente y sin anuncios. Tiene varias versiones de la misma y tambien ofrece opcion para poder escuchar los capitulos. En esta se pueden realizar comentarios al igual que subrayar los textos importantes.',
+      link: 'https://play.google.com/store/apps/details?id=com.portales.biblia',
+      image: pBiblie,
+    },
+    {
+      title: 'MEME Studio',
+      description:
+        'Esta aplicacion la hice para poder crear memes facilmente. La cual tambien ofrece plantilla que se pueden utilizar. Al igual que un editor de imagenes',
+      link: 'https://play.google.com/store/apps/details?id=com.portales.memestudio',
+      image: pMemes,
+    },
+  ],
+};
+
 export {
   homeCarrousel,
   educacion,
@@ -201,4 +321,9 @@ export {
   languages,
   conoTags,
   contactItems,
+  certificados,
+  diplomasUniversidad,
+  participacionCert,
+  dataProyectosWeb,
+  dataProyectosAndroid,
 };

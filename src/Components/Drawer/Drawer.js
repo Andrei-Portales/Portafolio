@@ -8,7 +8,6 @@ import homeIcon from '../../assets/icons/home.svg';
 // import tecIcon from '../../assets/icons/tecnology.svg';
 import rewardIcon from '../../assets/icons/medal.svg';
 import projIcon from '../../assets/icons/project.svg';
-import sportIcon from '../../assets/icons/sports.svg';
 import contactIcon from '../../assets/icons/contact.svg';
 
 const Drawer = (props) => {
@@ -31,11 +30,6 @@ const Drawer = (props) => {
           title="Proyectos"
           image={projIcon}
           navigate={() => navigate('/proyectos')}
-        />
-        <DrawerItem
-          title="Deportes"
-          image={sportIcon}
-          navigate={() => navigate('/deportes')}
         />
         <DrawerItem
           title="Contacto"

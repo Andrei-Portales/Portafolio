@@ -1,0 +1,136 @@
+@import '../../variables.scss';
+
+.logros-l {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.title-container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  align-items: center;
+  animation: flipInX;
+  animation-duration: 600ms;
+
+  & img {
+    height: 100%;
+    width: 35px;
+    animation: flipInY;
+    animation-duration: 1000ms;
+    margin-right: 15px;
+  }
+}
+
+.title-l {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  user-select: none;
+  margin-left: 15px;
+}
+
+.l-content {
+  width: 100%;
+  display: inline-flex;
+  overflow: auto;
+  margin-top: 15px;
+  animation: bounceInLeft;
+  animation-duration: 700ms;
+}
+
+.certificado-item {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-right: 35px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 300px;
+  min-width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  background-color: #1a242f;
+
+  & img {
+    height: 200px;
+  }
+
+  & div {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+  }
+}
+
+.background-full {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: calc(100vh);
+  width: calc(100vw);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  animation: fadeIn;
+  animation-duration: 800ms;
+}
+
+.image-full {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  & img {
+    max-height: 95%;
+    max-width: 90%;
+    animation: bounceInUp;
+    animation-duration: 500ms;
+  }
+}
+
+@media (max-width: $breakpointscreen) {
+  .title-l {
+    font-size: 1.5rem;
+  }
+
+  .title-container {
+    & img {
+      height: 80%;
+      width: 25px;
+    }
+  }
+
+  .certificado-item {
+    width: 190px;
+    min-width: 190px;
+  
+    & img {
+      height: 120px;
+
+    }
+  
+    & div {
+      font-family: 'Open Sans', sans-serif;
+      width: 100%;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      color: white;
+    }
+  }
+}

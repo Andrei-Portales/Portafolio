@@ -3,22 +3,28 @@ import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Inicio from './Inicio/Inicio';
-import Deportes from './Deportes/Deportes';
 import Contacto from './Contacto/Contacto';
+import Logros from './Logros/Logros';
+import Proyectos from './Proyectos/Proyectos';
 
 import Navbar from '../Components/Navbar/Navbar';
 
 const App = () => (
   <Router>
     <Navbar />
+
     <div className="main-content">
       <Switch>
-        <Route path="/deportes">
-          <Deportes />
-        </Route>
-
         <Route path="/contacto">
           <Contacto />
+        </Route>
+
+        <Route path="/proyectos">
+          <Proyectos />
+        </Route>
+
+        <Route path="/logros">
+          <Logros />
         </Route>
 
         <Route path="/">
