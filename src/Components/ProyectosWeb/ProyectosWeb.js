@@ -5,12 +5,12 @@ const ProyectosWeb = (props) => {
   const { data } = props;
 
   return (
-    <div className="container-pw">
+    <div className="container-pw" data-testid="proyectoweb-test">
       <div className="titulo-pw">{data.title}</div>
       <div className="vert-divider" />
       <div className="content-pw">
         {data.items.map((item) => (
-          <div className="child-pwc">
+          <div className="child-pwc" key={item.title}>
             <div className="image-child-pwc">
               <img src={item.image} alt="proyectow" />
             </div>

@@ -13,13 +13,12 @@ describe('Button', () => {
     const t1 = screen.getByText('Inicio');
     const t2 = screen.getByText('Logros');
     const t3 = screen.getByText('Proyectos');
-    const t4 = screen.getByText('Deportes');
+
     const t5 = screen.getByText('Contacto');
 
     expect(t1).toBeInTheDocument();
     expect(t2).toBeInTheDocument();
     expect(t3).toBeInTheDocument();
-    expect(t4).toBeInTheDocument();
     expect(t5).toBeInTheDocument();
   });
 
