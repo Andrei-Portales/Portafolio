@@ -18,7 +18,7 @@ const ProyectosWeb = (props) => {
               <div className="title">{item.title}</div>
               <div className="description">{item.description}</div>
               <div className="link">
-                <a href={item.link} target="blank">
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
                   Ir al sitio
                 </a>
               </div>

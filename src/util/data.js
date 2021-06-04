@@ -39,6 +39,8 @@ import distincion2020 from '../assets/diplomas/distincion2020.jpg';
 // proyectos web
 import amazonClonP from '../assets/proyectos-web/primevideo.png';
 import calendario from '../assets/proyectos-web/calendario.jpg';
+import memoria from '../assets/proyectos-web/memoria.jpg';
+import calculadoraIc from '../assets/proyectos-web/Calculadora.png';
 
 // proyectos android
 import pMusic from '../assets/proyectos-android/pmusic.webp';
@@ -282,6 +284,20 @@ const dataProyectosWeb = {
         'Este pagina se realizo para el departamente de internalizacion de la Universidad del Valle de Guatemala. El fin de esta pagina era poder mostrar los diferentes calendario japoneses. Para esto se utilizo React.',
       link: 'https://andrei-portales.github.io/calendario-japon',
       image: calendario,
+    },
+    {
+      title: 'Juego de memoria',
+      description:
+        'Este juego se realizo como parte de un laboratorio del curso de Sistemas y tecnologias web.',
+      link: 'http://stw-uvg.site/labs/lab08/Portales19825',
+      image: memoria,
+    },
+    {
+      title: 'Calculadora',
+      description:
+        'Este juego se realizo como parte de un laboratorio del curso de Sistemas y tecnologias web.',
+      link: 'http://stw-uvg.site/labs/lab10/Portales19825',
+      image: calculadoraIc,
     },
   ],
 };
