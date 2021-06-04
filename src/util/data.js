@@ -21,6 +21,7 @@ import location from '../assets/icons/location.svg';
 import mail from '../assets/icons/mail.svg';
 import phone from '../assets/icons/phone.svg';
 import checked from '../assets/icons/checked.svg';
+import github from '../assets/icons/github.svg';
 
 // certificados
 import htmlCertificate from '../assets/certificates/html.jpg';
@@ -161,6 +162,10 @@ const codeSkills = {
       progress: 0.7,
     },
     {
+      title: 'PostgreSQL',
+      progress: 0.7,
+    },
+    {
       title: 'Node js',
       progress: 0.7,
     },
@@ -215,6 +220,9 @@ const contactItems = [
   {
     icon: checked,
     title: 'Freelance disponible',
+  }, {
+    icon: github,
+    title: 'Andrei-Portales',
   },
 ];
 
