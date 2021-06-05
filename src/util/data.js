@@ -89,7 +89,7 @@ const experiencia = {
       logo: portasoft,
       doTitle: 'Aplicacion de consultas',
       doDescription:
-        'Se creo una aplicacion movil en la cual se pueden hacer consultas de carros, personas que se encuentran en Guatemala. Se conecto esta aplicacion a una base de datos ya existente',
+        'Se creo una aplicación móvil en la cual mediante el consumo de web services, hace consultas de geolocalización de clientes en Guatemala, El Salvador y Honduras',
     },
     {
       time: 'Diciembre 2020',
