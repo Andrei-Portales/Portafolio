@@ -27,6 +27,7 @@ import github from '../assets/icons/github.svg';
 import htmlCertificate from '../assets/certificates/html.jpg';
 import flutterCertificate from '../assets/certificates/fluter.jpg';
 import englishCertificate from '../assets/certificates/english.jpg';
+import reactCertificate from '../assets/certificates/react.jpg';
 
 // participacion
 import avanproC from '../assets/participacion/avanpro.jpg';
@@ -229,6 +230,10 @@ const contactItems = [
 const certificados = {
   title: 'Certificados',
   items: [
+    {
+      title: 'React Udemy',
+      image: reactCertificate,
+    },
     {
       title: 'HTML5 Udemy',
       image: htmlCertificate,
