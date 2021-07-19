@@ -10,7 +10,7 @@ module.exports = {
     index: './src/index.js',
   },
   output: {
-    path: path.resolve(__dirname, 'portafolio_s/src/public'),
+    path: path.resolve(__dirname, 'docs'),
     filename: '[name]_[hash].js',
   },
   plugins: [
