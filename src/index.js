@@ -1,6 +1,6 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/app';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 import './index.scss';
 import icon from './assets/icons/coding.svg';
 
@@ -10,4 +10,9 @@ link.type = 'image/svg';
 link.href = icon;
 document.head.appendChild(link);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);

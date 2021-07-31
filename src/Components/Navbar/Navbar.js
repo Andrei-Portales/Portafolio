@@ -36,7 +36,7 @@ const Navbar = () => {
             <div onClick={() => navigate('/')}>Inicio</div>
             <div onClick={() => navigate('/logros')}>Logros</div>
             <div onClick={() => navigate('/proyectos')}>Proyectos</div>
-            <div onClick={() => navigate('/contacto')}>Contacto</div>
+            {/* <div onClick={() => navigate('/contacto')}>Contacto</div> */}
           </ul>
         </div>
       </div>

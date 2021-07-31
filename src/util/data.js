@@ -42,7 +42,7 @@ import distincion2020 from '../assets/diplomas/distincion2020.jpg';
 import amazonClonP from '../assets/proyectos-web/primevideo.png';
 import calendario from '../assets/proyectos-web/calendario.jpg';
 import memoria from '../assets/proyectos-web/memoria.jpg';
-import calculadoraIc from '../assets/proyectos-web/Calculadora.png';
+import calculadoraIc from '../assets/proyectos-web/calculadora.png';
 
 // proyectos android
 import pMusic from '../assets/proyectos-android/pmusic.webp';
