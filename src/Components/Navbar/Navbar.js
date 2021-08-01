@@ -33,9 +33,9 @@ const Navbar = () => {
         <div className="title-nav">Andrei Portales</div>
         <div className="items-nav">
           <ul>
-            <div onClick={() => navigate('/')}>Inicio</div>
-            <div onClick={() => navigate('/logros')}>Logros</div>
-            <div onClick={() => navigate('/proyectos')}>Proyectos</div>
+            <div onClick={() => navigate('/portafolio/')}>Inicio</div>
+            <div onClick={() => navigate('/portafolio/logros')}>Logros</div>
+            <div onClick={() => navigate('/portafolio/proyectos')}>Proyectos</div>
             {/* <div onClick={() => navigate('/contacto')}>Contacto</div> */}
           </ul>
         </div>

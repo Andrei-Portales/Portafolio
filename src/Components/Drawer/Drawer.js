@@ -19,17 +19,17 @@ const Drawer = (props) => {
         <DrawerItem
           title="Inicio"
           image={homeIcon}
-          navigate={() => navigate('/')}
+          navigate={() => navigate('/portafolio/')}
         />
         <DrawerItem
           title="Logros"
           image={rewardIcon}
-          navigate={() => navigate('/logros')}
+          navigate={() => navigate('/portafolio/logros')}
         />
         <DrawerItem
           title="Proyectos"
           image={projIcon}
-          navigate={() => navigate('/proyectos')}
+          navigate={() => navigate('/portafolio/proyectos')}
         />
         {/* <DrawerItem
           title="Contacto"
