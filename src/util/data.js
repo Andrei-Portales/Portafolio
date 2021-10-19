@@ -15,6 +15,7 @@ import ccb from '../assets/images/ccb.png';
 import uvg from '../assets/images/uvg.jpg';
 import SuperSharp from '../assets/images/supersharp.jpg';
 import portasoft from '../assets/images/portasoft.jpeg';
+import sento from '../assets/images/sento.png';
 
 // contact icons
 import location from '../assets/icons/location.svg';
@@ -28,6 +29,7 @@ import htmlCertificate from '../assets/certificates/html.jpg';
 import flutterCertificate from '../assets/certificates/fluter.jpg';
 import englishCertificate from '../assets/certificates/english.jpg';
 import reactCertificate from '../assets/certificates/react.jpg';
+import nasaCertificate from '../assets/certificates/nasa.jpeg';
 
 // participacion
 import avanproC from '../assets/participacion/avanpro.jpg';
@@ -45,7 +47,7 @@ import memoria from '../assets/proyectos-web/memoria.jpg';
 import calculadoraIc from '../assets/proyectos-web/calculadora.png';
 
 // proyectos android
-import pMusic from '../assets/proyectos-android/pmusic.webp';
+// import pMusic from '../assets/proyectos-android/pmusic.webp';
 import pBiblie from '../assets/proyectos-android/biblia.webp';
 import pMemes from '../assets/proyectos-android/ms.webp';
 
@@ -116,6 +118,14 @@ const experiencia = {
       doDescription:
         'Se creo una pagina web para poder mostrar calendario japoneses de forma dinamica.',
     },
+    {
+      time: 'Septiembre 2021',
+      place: 'Sento AI',
+      logo: sento,
+      doTitle: 'Desarrollador Web',
+      doDescription:
+        'Trabajo en desarrollo de una plataforma web con el fin de poder brindar una mejor experiencia al cliente.',
+    },
   ],
 };
 
@@ -156,7 +166,7 @@ const codeSkills = {
     },
     {
       title: 'Flutter',
-      progress: 1.0,
+      progress: 0.8,
     },
     {
       title: 'NoSQL',
@@ -246,6 +256,10 @@ const certificados = {
       title: 'English Language Skills',
       image: englishCertificate,
     },
+    {
+      title: 'Nasa Space Apps Hackathon',
+      image: nasaCertificate,
+    }
   ],
 };
 
@@ -318,13 +332,13 @@ const dataProyectosWeb = {
 const dataProyectosAndroid = {
   title: 'Proyectos Android - Flutter',
   items: [
-    {
-      title: 'Portales Music',
-      description:
-        'Esta aplicacion la hice para que las personas puedan escuchar musica facil y gratuitamente sin tener que pagar subscripcion en otra aplicacion. Es libre de anuncios y pagos dentro de la misma.',
-      link: 'https://play.google.com/store/apps/details?id=com.portales.PortalesMusic',
-      image: pMusic,
-    },
+    // {
+    //   title: 'Portales Music',
+    //   description:
+    //     'Esta aplicacion la hice para que las personas puedan escuchar musica facil y gratuitamente sin tener que pagar subscripcion en otra aplicacion. Es libre de anuncios y pagos dentro de la misma.',
+    //   link: 'https://play.google.com/store/apps/details?id=com.portales.PortalesMusic',
+    //   image: pMusic,
+    // },
     {
       title: 'La biblia MV',
       description:

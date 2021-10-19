@@ -16,24 +16,24 @@ const App = () => (
     <div className="main-content">
       <Switch>
 
-        <Route path="/portafolio/" exact>
+        <Route path="/" exact>
           <Inicio />
         </Route>
 
-        <Route path="/portafolio/contacto">
+        <Route path="/contacto">
           <Contacto />
         </Route>
 
-        <Route path="/portafolio/proyectos">
+        <Route path="/proyectos">
           <Proyectos />
         </Route>
 
-        <Route path="/portafolio/logros">
+        <Route path="/logros">
           <Logros />
         </Route>
 
         <Route path="*">
-          <Redirect to="/portafolio/"/>
+          <Redirect to="/"/>
         </Route>
         
       </Switch>
