@@ -141,16 +141,7 @@ const experiencia = {
       place: 'Lumation Services',
       logo: lumation,
       doTitle: 'Desarrollador Web',
-      doDescription:
-        'Trabajo en desarrollo de una plataforma web con el fin de poder brindar una forma sencilla de organizar clientes y servicios.',
-    },
-    {
-      time: 'Julio 2021 - Noviembre 2021',
-      place: 'Universidad del Valle de Guatemala',
-      logo: uvg,
-      doTitle: 'Auxiliar de Programacion Basica',
-      doDescription:
-        'Junto con el profesor a cargo, preparamos trabajos, laboratorios, así como discutimos y calificamos el progreso de los estudiantes.',
+      doDescription: 'Trabajo en desarrollo de una plataforma web.',
     },
 
     {
