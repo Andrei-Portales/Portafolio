@@ -16,6 +16,7 @@ import uvg from '../assets/images/uvg.jpg';
 import SuperSharp from '../assets/images/supersharp.jpg';
 import portasoft from '../assets/images/portasoft.jpeg';
 import sento from '../assets/images/sento.png';
+import lumation from '../assets/images/lumation.png';
 
 // contact icons
 import location from '../assets/icons/location.svg';
@@ -30,6 +31,7 @@ import flutterCertificate from '../assets/certificates/fluter.jpg';
 import englishCertificate from '../assets/certificates/english.jpg';
 import reactCertificate from '../assets/certificates/react.jpg';
 import nasaCertificate from '../assets/certificates/nasa.jpeg';
+import nasaSpaceApps from '../assets/certificates/spaceapps.jpeg';
 
 // participacion
 import avanproC from '../assets/participacion/avanpro.jpg';
@@ -126,6 +128,39 @@ const experiencia = {
       doDescription:
         'Trabajo en desarrollo de una plataforma web con el fin de poder brindar una mejor experiencia al cliente.',
     },
+    {
+      time: 'Agosto 2021 - Noviembre 2021',
+      place: 'Universidad del Valle de Guatemala',
+      logo: uvg,
+      doTitle: 'Auxiliar de Programacion Basica',
+      doDescription:
+        'Junto con el profesor a cargo, preparamos trabajos, laboratorios, así como discutimos y calificamos el progreso de los estudiantes.',
+    },
+    {
+      time: 'Noviembre 2021',
+      place: 'Lumation Services',
+      logo: lumation,
+      doTitle: 'Desarrollador Web',
+      doDescription:
+        'Trabajo en desarrollo de una plataforma web con el fin de poder brindar una forma sencilla de organizar clientes y servicios.',
+    },
+    {
+      time: 'Julio 2021 - Noviembre 2021',
+      place: 'Universidad del Valle de Guatemala',
+      logo: uvg,
+      doTitle: 'Auxiliar de Programacion Basica',
+      doDescription:
+        'Junto con el profesor a cargo, preparamos trabajos, laboratorios, así como discutimos y calificamos el progreso de los estudiantes.',
+    },
+
+    {
+      time: 'Enero 2022 - Junio 2022',
+      place: 'Universidad del Valle de Guatemala',
+      logo: uvg,
+      doTitle: 'Auxiliar de Sistemas y tecnologias web.',
+      doDescription:
+        'Junto con el profesor a cargo, preparamos trabajos, laboratorios, así como discutimos y calificamos el progreso de los estudiantes.',
+    },
   ],
 };
 
@@ -142,11 +177,11 @@ const codeSkills = {
     },
     {
       title: 'Javascript',
-      progress: 0.8,
+      progress: 0.85,
     },
     {
       title: 'Dart',
-      progress: 0.9,
+      progress: 0.8,
     },
     {
       title: 'SQL',
@@ -154,7 +189,7 @@ const codeSkills = {
     },
     {
       title: 'C++',
-      progress: 0.5,
+      progress: 0.4,
     },
     {
       title: 'HTML/CSS',
@@ -162,7 +197,7 @@ const codeSkills = {
     },
     {
       title: 'React',
-      progress: 0.7,
+      progress: 0.8,
     },
     {
       title: 'Flutter',
@@ -231,7 +266,8 @@ const contactItems = [
   {
     icon: checked,
     title: 'Freelance disponible',
-  }, {
+  },
+  {
     icon: github,
     title: 'Andrei-Portales',
   },
@@ -259,7 +295,11 @@ const certificados = {
     {
       title: 'Nasa Space Apps Hackathon',
       image: nasaCertificate,
-    }
+    },
+    {
+      title: 'Nasa Space Apps - Primer lugar Guatemala',
+      image: nasaSpaceApps,
+    },
   ],
 };
 
