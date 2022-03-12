@@ -14,8 +14,8 @@ const PresentationCard = () => (
       <div>
         <h1 className="name-pres">Andrei Portales Okrassa</h1>
         <p className="desc-pres">
-          Soy un programador nacido en Guatemala. Tengo 20 años de edad.
-          Actualmente estoy en el tercer año de Ingeneria en Ciencias de la
+          Soy un programador nacido en Guatemala. Tengo 21 años de edad.
+          Actualmente estoy en cuarto año de Ingeneria en Ciencias de la
           Computacion y TI en la Universidad del Valle de Guatemala. Me apasiona
           estar probando cosas nuevas e investigar sobre lo que me llama la
           atencion, en especial cosas de tecnologia. Tengo todas las habilidades

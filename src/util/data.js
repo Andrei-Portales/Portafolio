@@ -72,7 +72,7 @@ const educacion = {
       logo: uvg,
       doTitle: 'Ciencias de la Computacion y TI',
       doDescription:
-        'Estoy estudiando Ingeneria en Ciencia de la Computacion y Tecnologias de la informacion en la Universidad del Valle de Guatemala. Por el momento voy por el tercer año de la carrera.',
+        'Estoy estudiando Ingeneria en Ciencia de la Computacion y Tecnologias de la informacion en la Universidad del Valle de Guatemala. Por el momento voy por el cuarto año de la carrera.',
     },
   ],
 };
@@ -137,7 +137,7 @@ const experiencia = {
         'Junto con el profesor a cargo, preparamos trabajos, laboratorios, así como discutimos y calificamos el progreso de los estudiantes.',
     },
     {
-      time: 'Noviembre 2021',
+      time: 'Noviembre 2021 - Febrero 2022',
       place: 'Lumation Services',
       logo: lumation,
       doTitle: 'Desarrollador Web',
